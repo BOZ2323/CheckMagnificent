@@ -1,4 +1,5 @@
 const axios = require("axios");
+const {argv} = require('yargs')
 
 async function makeRequest() {
 
@@ -9,4 +10,4 @@ async function makeRequest() {
     .catch(err => console.log(err));	    
 
 }	
-setInterval(makeRequest, 3000);
+setInterval(makeRequest, argv.seconds * 1000);
