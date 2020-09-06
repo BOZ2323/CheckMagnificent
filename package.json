@@ -17,5 +17,8 @@
     "code"
   ],
   "author": "Lilli Baaske",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.20.0"
+  }
 }
