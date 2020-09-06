@@ -56,10 +56,17 @@ Go to server.py, line 16 and remove:
 ``` sh
 .encode('utf-8')
 ```
+
+__How to test__
+``` sh
+npm run test
+```
+
 ## Dependencies
 
-axios
-yargs
+* axios
+* yargs
+* jest
 
 ## Support
 For support please feel free to send me an email: lillibaaske@gmx.de
@@ -71,11 +78,12 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 [MIT](https://choosealicense.com/licenses/mit/)
 
 ## Roadmap
-my future improvements would be:
+My future improvements would be:
 
 * writing tests
 * dockerizing the app
 * create a config file
+* having the total number of checks in the output would be a valuable information. But it was not in the requirements.
 
 and if this was the project I'd be working on for the next months I'd have some notification appear on the user's screen.
 
@@ -92,5 +100,5 @@ I added utf-8 encoding to the "Magnificent"-string and this solved the issue for
 
 
 
-I added the total number of checks to the output, although it was not in the requirements.
+
     
