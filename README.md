@@ -64,9 +64,9 @@ npm run test
 
 ## Dependencies
 
-* axios
-* yargs
-* jest
+* Axios - for promise based HTTP requests
+* Yargs - for parsing command line arguments
+* Jest - for testing
 
 ## Support
 For support please feel free to send me an email: lillibaaske@gmx.de
@@ -90,8 +90,9 @@ and if this was the project I'd be working on for the next months I'd have some 
 
 ## My decisions
 
-I decided to use axios for the http requests.
-As command line parsing tool I used yargs.
+I decided to use Axios for the http requests.
+As command line parsing tool I used Yargs.
+For testing I installed Jest
 
 
 Since running the server.py on MacOS with Python 3, I ran into a blocker, the app didn't compile. When I tried to run it on my old Linux machine, using Python 2, server.py ran successfully. I then tried to retrieve the response data with curl, but this gave me an error as well.
